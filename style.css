@@ -1378,3 +1378,15 @@ display:inline-block;
 }
 				
         }
+
+.tyusyaku {
+  color: #999;          /* 薄いグレー */
+  font-size: 13px;
+  text-align: center;   /* 中央寄せ */
+  margin: 10px auto 40px;
+}
+
+.tyusyaku a {
+  text-decoration: none;
+  color: #999;          /* 同じ薄いグレー */
+}
