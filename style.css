@@ -1390,3 +1390,15 @@ display:inline-block;
   text-decoration: none;
   color: #999;          /* 同じ薄いグレー */
 }
+
+.maininfo .tyusyaku {
+  color: #000;          /* 黒文字 */
+  font-size: 13px;
+  text-align: center;
+  margin: 10px auto 40px;
+}
+
+.maininfo .tyusyaku a {
+  text-decoration: none; /* 下線なし */
+  color: #000;           /* 黒のリンク */
+}
