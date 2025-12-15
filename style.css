@@ -1407,3 +1407,16 @@ display:inline-block;
   color: inherit;        /* 親（.sankoinfo）の文字色をそのまま使う */
   text-decoration: none; /* 下線を消す */
 }
+
+.sankoinfo {
+  margin: 5px 0 10px;     /* ← 修正済み */
+  font-size: 19px;
+  color: #666;
+  text-align: right;
+  font-weight: 300;
+}
+
+.sankoinfo a {
+  color: inherit;          /* 親の#666を継承 */
+  text-decoration: none;   /* 下線を消す */
+}
