@@ -1402,3 +1402,8 @@ display:inline-block;
   text-decoration: none; /* 下線なし */
   color: #000;           /* 黒のリンク */
 }
+
+.sankoinfo a {
+  color: inherit;        /* 親（.sankoinfo）の文字色をそのまま使う */
+  text-decoration: none; /* 下線を消す */
+}
