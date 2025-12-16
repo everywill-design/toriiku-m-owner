@@ -1420,3 +1420,17 @@ display:inline-block;
   color: inherit;          /* 親の#666を継承 */
   text-decoration: none;   /* 下線を消す */
 }
+
+/* TROUBLEセクション 注釈（参考：CBCNews） */
+#trouble .reference {
+  color: #aaa;          /* 薄いグレー（注釈トーン） */
+  font-size: 11px;      /* 注釈としてかなり控えめ */
+  text-align: right;    /* 右寄せ */
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+#trouble .reference a {
+  color: inherit;       /* 親のグレーを継承 */
+  text-decoration: none; /* 下線なし */
+}
