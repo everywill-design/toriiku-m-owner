@@ -1434,3 +1434,20 @@ display:inline-block;
   color: inherit;       /* 親のグレーを継承 */
   text-decoration: none; /* 下線なし */
 }
+
+/* 注釈：余計な空白を詰める */
+#trouble .reference {
+  color: #aaa;
+  font-size: 11px;
+  text-align: right;
+  margin-top: 6px;
+  line-height: 1.4;
+  letter-spacing: 0;     /* 文字間を詰める */
+  white-space: nowrap;   /* 改行・余白を無効化 */
+}
+
+#trouble .reference a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 2px;      /* ←「参考：」との間隔を最小に */
+}
