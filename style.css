@@ -177,12 +177,10 @@
         /* maininfo */
         
         .maininfo {
-    background-color: rgba(255,255,255,0.8);
-    background-blend-mode: lighten;
-    background-position-y: 72%;
-    margin-top: -8px;
-    padding: 30px 20px;
-        }
+    background: #fff;     /* ← セクション全体を白 */
+  margin-top: -8px;
+  padding: 30px 20px;
+}
         
         .maininfo h2 {
     font-size: 32px;
