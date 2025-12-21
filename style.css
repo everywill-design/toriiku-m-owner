@@ -974,20 +974,24 @@ line-height: 1.5;
 .voice-slideshow-container {
   position: relative;
   width: 100%;
-  min-height: 600px; /* 最小の高さを確保 */
   padding: 40px 0;
 }
 
 .voice-slide {
-  position: absolute;
+  position: relative;   /* ← absolute をやめる */
   width: 100%;
-  top: 0;
-  left: 0;
   display: block;
-  z-index: 1;
 }
+
 .voice-slide.active {
-    z-index: 2;
+  z-index: 2;
+}
+
+/* スマホ用：次のFLOWと確実に離す */
+@media (max-width: 768px) {
+  .voice-slideshow-container {
+    padding-bottom: 80px;
+  }
 }
 
 @keyframes voiceSlideIn {
