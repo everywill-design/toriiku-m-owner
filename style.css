@@ -978,20 +978,12 @@ line-height: 1.5;
 }
 
 .voice-slide {
-  position: relative;   /* ← absolute をやめる */
+  position: relative;
   width: 100%;
-  display: block;
 }
 
 .voice-slide.active {
   z-index: 2;
-}
-
-/* スマホ用：次のFLOWと確実に離す */
-@media (max-width: 768px) {
-  .voice-slideshow-container {
-    padding-bottom: 80px;
-  }
 }
 
 @keyframes voiceSlideIn {
