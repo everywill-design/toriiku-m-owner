@@ -1634,3 +1634,31 @@ footer.footermenu2 .container{
   }
 }
 
+/* ===== CTAテキストを細く・読みやすく ===== */
+
+#cta p,
+#cta .flexlisttxt,
+#cta .flexlisttxt p,
+#cta .flexlisttxt span {
+  font-weight: 400;   /* ← 太字解除 */
+  font-size: 20px;    /* ← 少し小さく */
+  line-height: 1.8;   /* ← 読みやすく */
+  color: #333;
+}
+
+/* 強調だけ少し残したい場合 */
+#cta strong{
+  font-weight: 600;
+}
+
+/* スマホ */
+@media (max-width: 768px){
+  #cta p,
+  #cta .flexlisttxt,
+  #cta .flexlisttxt p,
+  #cta .flexlisttxt span{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
+
