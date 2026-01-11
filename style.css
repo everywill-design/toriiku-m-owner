@@ -1591,3 +1591,46 @@ footer.footermenu2 .container{
 .intro2026{
   background: #fff;
 }
+
+/* ===== 導入の流れ：文字を小さく・細くする ===== */
+
+.process-step,
+.flow-step,
+.step-box {
+  /* 念のため複数classに効くように */
+}
+
+.process-step p,
+.flow-step p,
+.step-box p,
+.process-step span,
+.flow-step span {
+  font-size: 18px;      /* ← 今より小さく */
+  font-weight: 400;    /* ← 太字解除 */
+  line-height: 1.6;    /* ← 少し詰める */
+  color: #333;
+}
+
+/* STEP番号横のテキストがh3の場合 */
+.process-step h3,
+.flow-step h3 {
+  font-size: 20px;     /* ← 見出しも小さく */
+  font-weight: 500;   /* ← セミボールド程度 */
+}
+
+/* スマホ */
+@media (max-width: 768px){
+  .process-step p,
+  .flow-step p,
+  .step-box p,
+  .process-step span,
+  .flow-step span{
+    font-size: 15px;
+  }
+
+  .process-step h3,
+  .flow-step h3{
+    font-size: 16px;
+  }
+}
+
