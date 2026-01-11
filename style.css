@@ -1569,3 +1569,20 @@ footer.footermenu2 .container{
   .intro2026__cards{ grid-template-columns:1fr; }
   .intro2026__bottomTitle{ font-size:22px; }
 }
+
+.maininfo-logos{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  margin: 0 0 14px; /* ← 見出しとの間 */
+}
+
+.maininfo-logos img{
+  height:48px;
+  width:auto;
+}
+
+@media (max-width:768px){
+  .maininfo-logos img{ height:36px; }
+}
