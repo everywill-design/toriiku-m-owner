@@ -1505,3 +1505,67 @@ footer.footermenu2 .container{
   padding-bottom: 0 !important;
 }
 
+/* ===== 2026 intro section（画像埋め込み版）上書き ===== */
+
+.intro2026{
+  background:#f2f2f2;
+  padding: 34px 18px 28px;
+}
+
+.intro2026__inner{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.intro2026__title{
+  text-align:center;
+  font-size: 32px;
+  margin: 0 0 18px;
+}
+
+.intro2026__cards{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.intro2026__card{
+  background:#fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 18px rgba(0,0,0,.10);
+  padding: 14px;
+}
+
+.intro2026__imgWrap{
+  border-radius: 14px;
+  overflow:hidden;
+}
+
+.intro2026__imgWrap img{
+  width:100%;
+  display:block;
+}
+
+.intro2026__bottom{
+  text-align:center;
+  margin-top: 18px;
+}
+
+.intro2026__bottomTitle{
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 8px;
+}
+
+.intro2026__bottomText{
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* SP */
+@media (max-width: 768px){
+  .intro2026__title{ font-size:24px; }
+  .intro2026__cards{ grid-template-columns:1fr; }
+  .intro2026__bottomTitle{ font-size:22px; }
+}
