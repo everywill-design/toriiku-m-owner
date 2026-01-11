@@ -1662,3 +1662,13 @@ footer.footermenu2 .container{
   }
 }
 
+/* ===== 導入の流れ：BOXの横幅を短くする ===== */
+
+/* STEP全体のラッパー（枠の白い箱） */
+.process-step,
+.flow-step,
+.step-box {
+  max-width: 900px;     /* ← 好みで 800〜1000px に調整OK */
+  margin: 0 auto 20px; /* ← 中央寄せ + 下余白 */
+}
+
