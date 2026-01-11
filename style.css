@@ -1586,3 +1586,8 @@ footer.footermenu2 .container{
 @media (max-width:768px){
   .maininfo-logos img{ height:36px; }
 }
+
+/* intro2026 セクションを白背景にする（上書き） */
+.intro2026{
+  background: #fff;
+}
