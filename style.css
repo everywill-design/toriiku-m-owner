@@ -1780,3 +1780,10 @@ footer.footermenu2 .container{
     font-size: 15px; /* SP：17px → 15px */
   }
 }
+
+/* ▼ intro 見出し：PCのみ強制上書き */
+@media (min-width: 769px){
+  .intro2026__title{
+    font-size: 28px !important;
+  }
+}
