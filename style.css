@@ -1743,3 +1743,12 @@ footer.footermenu2 .container{
     padding: 0 10px;
   }
 }
+
+/* 修正案1：画像の高さを統一してズレを解消する */
+.introduction-card img {
+    width: 100% !important;
+    height: 180px !important;    /* ここの数値で高さを揃えます */
+    object-fit: cover !important; /* 画像が引き伸ばされるのを防ぎます */
+    display: block;
+    margin: 0 auto 15px auto;    /* 下のテキストとの余白を調整 */
+}
