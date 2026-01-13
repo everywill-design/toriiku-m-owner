@@ -1752,3 +1752,17 @@ footer.footermenu2 .container{
     display: block;
     margin: 0 auto 15px auto;    /* 下のテキストとの余白を調整 */
 }
+
+/* 導入検討の3枚のカード画像のズレを修正 */
+.top_introduction_container .top_introduction_main .introduction_content .introduction_card .introduction_img_area img {
+    width: 100% !important;
+    height: 200px !important;    /* 1枚目・2枚目に合わせた高さ */
+    object-fit: cover !important; /* 比率を維持して中央で切り抜き */
+    display: block !important;
+}
+
+/* 画像の高さを固定した際、下のテキストとの余白を整える */
+.top_introduction_container .top_introduction_main .introduction_content .introduction_card .introduction_img_area {
+    height: 200px !important;
+    margin-bottom: 20px !important;
+}
