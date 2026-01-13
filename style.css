@@ -1691,3 +1691,48 @@ footer.footermenu2 .container{
   }
 }
 
+/* ===== intro2026（PC版） 改修見た目に固定：末尾に追記 ===== */
+@media (min-width: 769px){
+  .intro2026{
+    background: #fff;
+    padding: 28px 18px 32px;
+  }
+
+  .intro2026__inner{
+    max-width: 1100px;  /* 980pxだと詰まるので少し広げる */
+    margin: 0 auto;
+  }
+
+  .intro2026__title{
+    font-size: 34px;
+    margin: 0 0 22px;
+    text-align: center;
+  }
+
+  .intro2026__cards{
+    display: flex;
+    gap: 28px;
+    align-items: stretch;
+  }
+
+  .intro2026__card{
+    flex: 1;
+    background: #fff;
+    border-radius: 22px;
+    padding: 22px;
+    box-shadow: 0 10px 22px rgba(0,0,0,.10);
+  }
+
+  .intro2026__imgWrap{
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  .intro2026__imgWrap img{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+
