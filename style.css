@@ -1738,7 +1738,7 @@ footer.footermenu2 .container{
 /* intro2026 タイトル SP文字サイズ調整（上書き用） */
 @media (max-width: 768px){
   .intro2026__title{
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.6;
     padding: 0 10px;
   }
