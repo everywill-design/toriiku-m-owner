@@ -1771,7 +1771,7 @@ footer.footermenu2 .container{
 /* ▼ intro 見出し文字サイズ調整（上書き用） */
 @media (min-width: 769px){
   .intro2026__title{
-    font-size: 30px; /* PC：34px → 30px */
+    font-size: 30px; /* PC：34px → 26px */
   }
 }
 
