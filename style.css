@@ -1691,36 +1691,3 @@ footer.footermenu2 .container{
   }
 }
 
-/* ===== intro2026：PC・タブレット3列固定／外枠は画像ぴったり ===== */
-
-.intro2026__cards{
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  gap: 22px;
-}
-
-.intro2026__card{
-  padding: 0 !important;
-  display: block !important;
-  overflow: hidden;
-  border-radius: 18px;
-}
-
-.intro2026__imgWrap{
-  width: 100% !important;
-}
-
-.intro2026__imgWrap img{
-  width: 100% !important;
-  height: auto !important;
-  display: block;
-}
-
-/* スマホだけ1列 */
-@media (max-width: 768px){
-  .intro2026__cards{
-    grid-template-columns: 1fr !important;
-  }
-}
-
-
