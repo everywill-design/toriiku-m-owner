@@ -1787,3 +1787,9 @@ footer.footermenu2 .container{
     font-size: 20px !important;
   }
 }
+
+@media (max-width: 820px) {
+  #solution .section-label-center {
+    overflow: hidden;
+  }
+}
