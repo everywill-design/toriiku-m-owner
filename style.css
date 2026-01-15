@@ -1793,3 +1793,13 @@ footer.footermenu2 .container{
     overflow: hidden;
   }
 }
+
+/* ===== SOLUTION（スマホ）だけ背景文字を中央寄せにする ===== */
+@media (max-width: 820px){
+  #solution .section-label{
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+}
