@@ -1794,12 +1794,16 @@ footer.footermenu2 .container{
   }
 }
 
-/* ===== SOLUTION（スマホ）だけ背景文字を中央寄せにする ===== */
+/* ===== SOLUTION（スマホ）背景文字を縦中央にする ===== */
 @media (max-width: 820px){
+  #solution .section-label-center{
+    position: relative; /* 念のため（すでに relative だけど保険） */
+  }
+
   #solution .section-label{
-    width: 100%;
-    text-align: center;
-    left: 0;
-    right: 0;
+    top: 50% !important;      /* ← 縦中央 */
+    bottom: auto !important;  /* ← bottom:0 を無効化 */
+    transform: translateY(-50%);
+    margin: 0 !important;     /* ← margin:auto の影響を切る */
   }
 }
