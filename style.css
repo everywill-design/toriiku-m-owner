@@ -1807,3 +1807,8 @@ footer.footermenu2 .container{
     margin: 0 !important;     /* ← margin:auto の影響を切る */
   }
 }
+
+/* 問い合わせボタン（電話相談→問い合わせ用） */
+.cta-button.tocontact img{
+  max-height: 32px;
+}
